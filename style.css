@@ -1,0 +1,199 @@
+/* basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: #fff;
+    color: #333;
+}
+
+h1, h2 {
+    margin-bottom: 15px;
+}
+
+/* navigation */
+.nav {
+    margin-bottom: 20px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+/* forms */
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: inline-block;
+    width: 180px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    padding: 6px 8px;
+    width: 300px;
+    border: 1px solid #999;
+}
+
+.form-group textarea {
+    height: 60px;
+    vertical-align: top;
+}
+
+/* buttons */
+.btn {
+    padding: 8px 16px;
+    cursor: pointer;
+    border: 1px solid #666;
+    background: #f0f0f0;
+    margin-right: 5px;
+}
+
+.btn:hover {
+    background: #ddd;
+}
+
+.btn-primary {
+    background: #0066cc;
+    color: #fff;
+    border-color: #0055aa;
+}
+
+.btn-primary:hover {
+    background: #0055aa;
+}
+
+.btn-danger {
+    background: #cc3333;
+    color: #fff;
+    border-color: #aa2222;
+}
+
+.btn-danger:hover {
+    background: #aa2222;
+}
+
+.btn-success {
+    background: #28a745;
+    color: #fff;
+    border-color: #1e7e34;
+}
+
+.btn-success:hover {
+    background: #1e7e34;
+}
+
+/* tables */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #999;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background: #f2f2f2;
+}
+
+th a {
+    color: #333;
+    text-decoration: none;
+}
+
+th a:hover {
+    text-decoration: underline;
+}
+
+/* thumbnail */
+img.thumb {
+    width: 40px;
+    height: 45px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+}
+
+/* messages */
+.msg-success {
+    background: #d4edda;
+    color: #155724;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #c3e6cb;
+}
+
+.msg-error {
+    background: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #f5c6cb;
+}
+
+/* search and toolbar */
+.toolbar {
+    margin-bottom: 15px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.toolbar input[type="text"] {
+    padding: 6px 8px;
+    width: 250px;
+    border: 1px solid #999;
+}
+
+/* current photo in edit form */
+.current-photo {
+    margin: 5px 0;
+}
+
+.current-photo img {
+    width: 80px;
+    height: 90px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+}
+
+/* settings section */
+.settings-section {
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+/* inline form for branches */
+.inline-form {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.inline-form input {
+    padding: 6px 8px;
+    border: 1px solid #999;
+}
